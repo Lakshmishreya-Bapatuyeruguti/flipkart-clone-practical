@@ -5,25 +5,184 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flipkart Clone -Simform</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="topNavBar">
-      <header>
-        <div class="navbar">
-          <nav>
-            <div class="logoContainer">
-              <div class="plainlogo">
-                <img src="/assets/flipkart-logo.png" alt="Flipkart Logo" />
-              </div>
-              <div class="explorePlus">
-                <a href="#">Explore <span class="plusText">Plus</span> </a>
-                <img src="/assets/plus.png" alt="Plus" />
+    <header>
+      <div class="navbar">
+        <nav class="topNav" id="headerNav">
+          <div class="navContainer">
+            <div class="plainLogo">
+              <img src="/assets/flipkart-logo.png" alt="flipkart logo" />
+              <a href="#" class="expPlus"
+                >Explore<span class="plus"
+                  >Plus
+                  <img
+                    src="/assets/plus.png"
+                    alt="Plus img"
+                    class="plusImg" /></span
+              ></a>
+            </div>
+            <div class="searchBar">
+              <div class="search">
+                <form action="#" class="searchField">
+                  <input
+                    type="text/"
+                    class="searchBox"
+                    placeholder="Search for products, brands and more"
+                  />
+                  <button class="searchBtn">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </form>
               </div>
             </div>
-          </nav>
-        </div>
-      </header>
+
+            <div class="loginBtn">
+              <a href="#" class="login">Login</a>
+              <div class="loginMenu none">
+                <ul class="loginOptions">
+                  <li class="ulItem signupNew">
+                    <p class="new">New customer?</p>
+                    <a href="#" class="signup">Sign Up</a>
+                  </li>
+                  <li class="ulItem">My Profile</li>
+                  <li class="ulItem">Flipkart Plus Zone</li>
+                  <li class="ulItem">Orders</li>
+                  <li class="ulItem">Wishlist</li>
+                  <li class="ulItem">Rewards</li>
+                  <li class="ulItem">Gift Cards</li>
+                </ul>
+              </div>
+            </div>
+            <div class="becASeller">
+              <a href="#" class="becASellerTxt">Become a Seller</a>
+            </div>
+            <div class="more">
+              <span class="moreTxt">More <i class="fa fa-angle-down"></i></span>
+              <div class="moreMenu none">
+                <div class="options moreOptions">
+                  <ul class="moreMenuOptions">
+                    <li class="moreItems">
+                      <i class="moreIcon fa fa-bell"> </i> Notification
+                      Preferences
+                    </li>
+                    <li class="moreItems">
+                      <i class="moreIcon fa fa-question"> </i>24X7 Customer Care
+                    </li>
+                    <li class="moreItems">
+                      <i class="moreIcon fa fa-line-chart"> </i>Advertise
+                    </li>
+                    <li class="moreItems">
+                      <i class="moreIcon fa fa-download"> </i>Download App
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart">
+              <span class="cartTxt"
+                ><i class="fa fa-shopping-cart"></i>Cart</span
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="categoryOptions">
+      <ul class="categoryList">
+        <li class="categoryItem">
+          <img
+            src="/assets/grocery.webp"
+            alt="Category Image"
+            class="CategoryImg"
+          />
+          <p class="categoryName">Grocery</p>
+        </li>
+        <li class="categoryItem">
+          <img
+            src="/assets/mobiles.webp"
+            alt="Category Image"
+            class="CategoryImg"
+          />
+          <p class="categoryName">Mobiles</p>
+        </li>
+        <li class="categoryItem">
+          <img
+            src="/assets/fashion.webp"
+            alt="Category Image"
+            class="CategoryImg"
+          />
+          <p class="categoryName">Fashion <i class="fa fa-angle-down"></i></p>
+        </li>
+        <li class="categoryItem">
+          <img
+            src="/assets/electronics.webp"
+            alt="Category Image"
+            class="CategoryImg"
+          />
+          <p class="categoryName">
+            Electronics <i class="fa fa-angle-down"></i>
+          </p>
+        </li>
+        <li class="categoryItem">
+          <img
+            src="/assets/home.webp"
+            alt="Category Image"
+            class="CategoryImg"
+          />
+          <p class="categoryName">Home <i class="fa fa-angle-down"></i></p>
+        </li>
+        <li class="categoryItem">
+          <img
+            src="/assets/appliances.webp"
+            alt="Category Image"
+            class="CategoryImg"
+          />
+          <p class="categoryName">Appliances</p>
+        </li>
+        <li class="categoryItem">
+          <img
+            src="/assets/travel.webp"
+            alt="Category Image"
+            class="CategoryImg"
+          />
+          <p class="categoryName">Travel</p>
+        </li>
+        <li class="categoryItem">
+          <img
+            src="/assets/topoffers.webp"
+            alt="Category Image"
+            class="CategoryImg"
+          />
+          <p class="categoryName">Top Offers</p>
+        </li>
+        <li class="categoryItem">
+          <img
+            src="/assets/toysandmore.webp"
+            alt="Category Image"
+            class="CategoryImg"
+          />
+          <p class="categoryName">
+            Beauty,Toys & More <i class="fa fa-angle-down"></i>
+          </p>
+        </li>
+        <li class="categoryItem">
+          <img
+            src="/assets/twowheelers.webp"
+            alt="Category Image"
+            class="CategoryImg"
+          />
+          <p class="categoryName">
+            Two Wheelers <i class="fa fa-angle-down"></i>
+          </p>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
