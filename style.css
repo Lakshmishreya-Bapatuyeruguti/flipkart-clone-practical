@@ -18,7 +18,8 @@ body {
   position: sticky;
   top: 0;
   z-index: 2;
-  max-width: 100vw;
+  /* max-width: 100vw; */
+  width: 100vw;
 }
 .navContainer {
   display: flex;
@@ -66,11 +67,11 @@ body {
 
 /* search bar */
 .searchBar {
-  min-width: 304px;
-  width: 560px;
+  min-width: 19rem;
+  width: 35rem;
 }
 .search {
-  max-width: 564px;
+  max-width: 35.25rem;
   width: 100%;
   background-color: black;
   box-shadow: 0 2px 2px 0 rgb(132, 132, 132);
@@ -318,7 +319,7 @@ width:80%;
 .headingElectronics{
   margin:0.5% ;
   padding-top:10px;
-  font-size: 27px;
+  font-size: 25px;
     line-height: 1.0;
     font-weight: 400;
     color: #212121;
@@ -399,6 +400,9 @@ width:95%;
   width: 20px;
   color:  #2874f0 !important;
 }
+.sec1LastImg{
+  display:none;
+}
 /* .fa-clock{
   color:black;
 }
@@ -406,3 +410,202 @@ width:95%;
 
   color: #2874f0;
 } */
+
+@media only screen and (max-width: 1801px) {
+.timer{
+  display: none;
+}
+#demo{
+  display: none;
+}
+
+}
+@media only screen and (max-width: 1290px) {
+  .rightContainer
+{
+  display: hidden;
+  /* padding: auto;
+  margin:auto ; */
+}
+.leftContainer{
+  width:100%;
+}
+.rightContainer img{
+  display: block;
+}
+.leftContainerOnly{
+  width: 100%;
+}
+.becASeller {
+  display:none;
+}
+.topNav{
+  width: 100vw;
+}
+
+  .lastImg{
+    display: hidden;
+  }
+  }
+  @media only screen and (min-width: 320px) and (max-width: 600px) {
+    
+  .topNav{
+    background-color: #2874f0;
+    width: 100vw;
+  }
+  .cartTxt{
+    display:none;
+  }
+  /* .loginBtn{
+    display:none;
+  } */
+.more{
+  display:none;
+}
+.searchBar{
+  display: none;
+}
+div.scroll {
+  margin: 4px, 4px;
+  padding: 4px;
+  /* background-color: #08c708; */
+  width: 100vw;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+  }
+  @media only screen and (max-width: 600px) {
+  .rightContainer{
+    display: none;
+  }
+  .wrapper {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .citem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .productsContainer{
+   height:100%;
+   width:80%;
+  }
+  .electronicsList {
+    /* display: block; */
+   
+    list-style: none;
+    max-width: 1280px;
+    width: 100%;
+  }
+  .headingContainer,.headingElectronics{
+    font-size: medium;
+    font-weight: 600;
+  }
+  .electronicImg{
+    height:74px;
+    width: 74px;
+  }
+  /* .sec1LastImg{
+    display:none;
+  } */
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 1150px){
+     div.scroll {
+      margin: 4px, 4px;
+      padding: 4px;
+       /* background-color: #08c708;  */
+      width: 100vw;
+      overflow: auto;
+      white-space: nowrap;
+    } 
+    .wrapper {
+      display: grid;
+      height: 100%;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    .citem {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .productsContainer{
+      height:100%;
+      /* width:80%; */
+     }
+    .productsContainer2{
+     height:100%;
+     width:100%;
+    }
+    .electronicsList {
+      /* display: block; */
+     
+      list-style: none;
+      max-width: 1280px;
+      width: 100%;
+    }
+    /* .wrapper {
+      display: grid;
+      height: 100%;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    } */
+    div.scroll {
+      margin: 4px, 4px;
+      padding: 4px;
+      /* background-color: #08c708; */
+      width: 100vw;
+      overflow: auto;
+      white-space: nowrap;
+  }
+    .categoryList {
+      /* display: block; */
+     
+      list-style: none;
+      max-width: 1280px;
+      width: 90%;
+    }
+    .headingContainer,.headingElectronics{
+      font-size: 28px;
+      font-weight: 400;
+    }
+    /* .lastImg{
+      display: flex;
+    } */
+    .rightContainer{
+      /* display: block; */
+      width:100%;
+    }
+    .rightContainer img{
+      height: 660px;
+      width: 100%;
+    }
+    
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 800px){
+    .rightContainer{
+      display:none;
+    }
+  }
+  @media only screen and (min-width: 601px) and (max-width: 1100px){
+   
+    .searchBar{
+    
+      width: 20%;
+    }
+   
+    div.scroll {
+      margin: 4px, 4px;
+      padding: 4px;
+      /* background-color: #08c708; */
+      width: 100vw;
+      overflow: auto;
+      white-space: nowrap;
+  }
+  }
