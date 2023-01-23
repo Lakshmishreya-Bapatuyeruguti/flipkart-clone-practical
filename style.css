@@ -268,3 +268,118 @@ body {
   font-size: 14px;
   font-weight: 550;
 }
+/* Product Listing */
+.productsContainer{
+  margin: 2% 6% ;
+  height: 380px;;
+  width:90%;
+  /* background-color: #ffe500; */
+  display: flex;
+}
+.leftContainer{
+  /* display: flex; */
+  justify-content: space-between;
+  background-color: white;
+  height: 100%;
+width:80%;
+}
+.rightContainer
+{
+  background-color: white;
+  height: 100%;
+  width:15%;
+  /* padding: auto;
+  margin:auto ; */
+}
+.rightContainer img{
+  padding: 0.7em;
+}
+.viewAll{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+    font-weight: 600;
+}
+.viewBtn{
+  margin:1% ;
+  background-color: #2874f0;
+  height:10%;
+  padding: 10px 20px;
+  
+}
+.headingContainer{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 0px gainsboro;
+  height: fit-content;
+  width: 100%;
+}
+
+.headingElectronics{
+  margin:0.5% ;
+  padding-top:10px;
+  font-size: 27px;
+    line-height: 1.0;
+    font-weight: 400;
+    color: #212121;
+   
+}
+
+.electronicOptions {
+
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  min-height: 112px;
+  border-bottom: 2px solid lightgrey;
+}
+.electronicsList {
+  /* display: block; */
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.electronicsItem {
+  padding: 12px 8px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.categoryItem:hover {
+  color: #2874f0;
+}
+.electronicImg {
+  height: 160px;
+  width: 160px;
+  margin-bottom: 3px;
+}
+.electronicName {
+  padding: 5%;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.leftContainerOnly{
+  justify-content: space-between;
+  background-color: white;
+  height: 100%;
+width:95%;
+}
+.toysList {
+ /* display: block; */
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  max-width: 1580px;
+  width: 100%;
+}
+.greenTxt{
+  color:green;
+  padding: 10px 0;
+}
+.brandTxt{
+  color: #8e8e8f;;
+}
