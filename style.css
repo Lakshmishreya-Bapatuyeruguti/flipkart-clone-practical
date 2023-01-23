@@ -10,6 +10,7 @@ body {
   min-height: 100vh;
   background: #f1f3f6;
 }
+/* Navabar */
 .topNav {
   display: flex;
   background-color: #2874f0;
@@ -29,6 +30,7 @@ body {
   margin: auto;
   width: 100%;
 }
+/* Flipkart Logo + Explore Plus */
 .plainLogo {
   display: flex;
   flex-direction: column;
@@ -102,6 +104,7 @@ body {
 .none {
   display: none;
 }
+/* Login Button */
 .loginBtn {
   position: relative;
   left: 35px;
@@ -119,7 +122,7 @@ body {
   font-size: 16px;
   font-weight: 600;
 }
-
+/* Become Seller */
 .becASeller {
   position: relative;
   left: 45px;
@@ -131,6 +134,7 @@ body {
   color: white;
   font-size: 16px;
 }
+/* More and Cart */
 .more,
 .cart {
   position: relative;
@@ -227,7 +231,7 @@ body {
 .more:hover .moreMenu {
   display: block;
 }
-
+/* Category section */
 .categoryOptions {
   display: flex;
   background: #fff;
@@ -264,10 +268,3 @@ body {
   font-size: 14px;
   font-weight: 550;
 }
-/* .fa-angle-down{
-  margin:0;
-  font-weight: lighter;
-}
-.fa-user{
-  border-radius:50%;
-} */
