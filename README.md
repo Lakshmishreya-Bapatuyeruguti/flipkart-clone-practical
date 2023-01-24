@@ -14,5 +14,5 @@ SCREENSHOTS OF THE RESULTS:
 
 ![Screenshot from 2023-01-24 12-06-01](https://user-images.githubusercontent.com/122250979/214228781-c89c48a0-e308-4bd7-950d-51e532a89667.png)
 
-2) Smaller Screens version( Tab and Mobiles)
+- other screenshots can be viwed from <b>Results_Screenshots<b> folder
 
