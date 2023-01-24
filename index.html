@@ -9,7 +9,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -110,6 +111,31 @@
             <span class="cartTxt"><i class="fa fa-shopping-cart"></i>Cart</span>
           </div>
         </div>
+        <!-- <div class="hamburger">
+          <i class="fa fa-bars"></i>
+        </div> -->
+          <ul class="menu ">
+            <li class="menuItem">    <div class="plainLogo2">
+            <img src="/assets/flipkart-logo.png" alt="flipkart logo" />
+            <a href="#" class="expPlus2"
+              >Explore<span class="plus2"
+                >Plus
+                <img
+                  src="/assets/plus.png"
+                  alt="Plus img"
+                  class="plusImg2" /></span
+            ></a>
+          </div></li>
+    <!-- <li><a class="menuItem menuI1" href="#">Login</a></li> -->
+    <li><a class="menuItem try" href="#">Login</a></li>
+    <li><a class="menuItem" href="#">More <i class="fa fa-angle-down"></i></a></li>
+    <li><a class="menuItem" href="#">Cart <i class="fa fa-shopping-cart"></i></a></li>
+  </ul>
+  <button class="hamburger ">
+    <!-- material icons https://material.io/resources/icons/ -->
+    <i class="menuIcon material-icons">menu</i>
+    <i class="closeIcon material-icons">close</i>
+  </button>
       </nav>
       <!-- </div> -->
     </header>
@@ -394,6 +420,27 @@
           document.getElementById("demo").innerHTML = "EXPIRED";
         }
       }, 1000);
+    </script>
+    <script>
+      const menu = document.querySelector(".menu");
+const menuItems = document.querySelectorAll(".menuItem");
+const hamburger= document.querySelector(".hamburger");
+const closeIcon= document.querySelector(".closeIcon");
+const menuIcon = document.querySelector(".menuIcon");
+
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    closeIcon.style.display = "none";
+    menuIcon.style.display = "block";
+  } else {
+    menu.classList.add("showMenu");
+    closeIcon.style.display = "block";
+    menuIcon.style.display = "none";
+  }
+}
+
+hamburger.addEventListener("click", toggleMenu);
     </script>
   </body>
 </html>

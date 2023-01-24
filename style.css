@@ -416,6 +416,53 @@ body {
   transform: scale(0.6);
 }
 
+.hamburger {
+  /* display: flex; */
+  position: absolute;
+  z-index: 100;
+  top: 0.6rem;
+  right: 5rem;
+  padding: 4px;
+  border: black solid 1px;
+  background: white;
+  cursor: pointer;
+}
+.closeIcon {
+  display: none;
+}
+.menu {
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  /* left: 0;
+  right: 0;
+  bottom: 0; */
+  z-index: 99;
+  background: #2874f0;
+  color: white;
+  list-style: none;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  width: 100%;
+}
+.showMenu {
+  transform: translateY(0);
+}
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* .menuI1 {
+  background-color: #f0f0f0;
+} */
+
 @media only screen and (max-width: 1801px) {
   .timer {
     display: none;
@@ -458,9 +505,9 @@ body {
   .cartTxt {
     display: none;
   }
-  /* .loginBtn{
-    display:none;
-  } */
+  .loginBtn {
+    display: none;
+  }
   .more {
     display: none;
   }
@@ -474,6 +521,38 @@ body {
     width: 100vw;
     overflow: auto;
     white-space: nowrap;
+  }
+  .plainLogo2 {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+  .expPlus2 {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -3px;
+  }
+  .expPlus2:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  .plainLogo2 img {
+    width: 75px;
+  }
+  .expPlus2 .plusImg2 {
+    padding-top: 2px;
+    width: 10px;
+  }
+  .plus2 {
+    color: #ffe500;
+    margin: 0 2px;
+    font-weight: 600;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -517,6 +596,12 @@ body {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1150px) {
+  .menu {
+    display: none;
+  }
+  .hamburger {
+    display: none;
+  }
   div.scroll {
     margin: 4px, 4px;
     padding: 4px;
@@ -588,9 +673,19 @@ body {
     height: 660px;
     width: 100%;
   }
+  .none {
+    display: visible;
+  }
+  /* hamburger */
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+  .hamburger {
+    display: none;
+  }
   .rightContainer {
     display: none;
   }
@@ -599,7 +694,12 @@ body {
   .searchBar {
     width: 20%;
   }
-
+  .menu {
+    display: none;
+  }
+  .hamburger {
+    display: none;
+  }
   div.scroll {
     margin: 4px, 4px;
     padding: 4px;
@@ -607,5 +707,13 @@ body {
     width: 100vw;
     overflow: auto;
     white-space: nowrap;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 4000px) {
+  .menu {
+    display: none;
+  }
+  .hamburger {
+    display: none;
   }
 }
