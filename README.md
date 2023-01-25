@@ -1,5 +1,5 @@
 # flipkart-clone-practical
-### Done By: Lakshmishreya Baptuyeruguti -Blockchain Trainee 2023
+### Done By: Lakshmishreya Bapatuyeruguti -Blockchain Trainee 2023
 <br>
 
 - Made a Flipkart clone using HTML,CSS and made it responsive using media queries.
